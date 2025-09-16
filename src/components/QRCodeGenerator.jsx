@@ -86,7 +86,7 @@ const QRCodeGenerator = () => {
   return (
     <>
       <Helmet>
-        <title>Modern QR Code Generator - Free & Customizable with Logo</title>
+        <title>QR Code Generator - Free & Customizable with Logo</title>
         <meta name="description" content="Create beautiful, custom QR codes for free. Add a high-visibility icon or logo, choose colors, use background images, and download high-quality PNGs." />
         <meta name="keywords" content="qr code generator, free qr code, custom qr code, qr code with logo, qr code maker, qr code creator, online qr code tool, react qr code" />
       </Helmet>
