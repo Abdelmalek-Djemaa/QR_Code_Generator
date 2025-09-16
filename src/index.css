@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+body {
+  background-color: #000;
+  /* Adds a subtle noise texture for a more realistic feel */
+  background-image: url('https://uploads-ssl.webflow.com/62e35c623253b8473c1c73a8/63327d32c853c20c02882a87_Noise-bg.jpg');
+  background-size: cover;
+  background-position: 50%;
+  color: #f8f9fa;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* This pseudo-element creates the animated color blobs */
+body::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: radial-gradient(circle at 50% 50%, rgba(255, 159, 64, 0.2), rgba(255, 159, 64, 0) 20%),
+              radial-gradient(circle at 20% 30%, rgba(88, 81, 219, 0.3), rgba(88, 81, 219, 0) 25%),
+              radial-gradient(circle at 80% 70%, rgba(20, 204, 222, 0.3), rgba(20, 204, 222, 0) 25%);
+  /* Animation makes the background gently shift over time */
+  animation: background-pan 15s linear infinite;
+}
+
+@keyframes background-pan {
+  0% {
+    background-position: 0% 82%;
+  }
+  50% {
+    background-position: 100% 19%;
+  }
+  100% {
+    background-position: 0% 82%;
+  }
+}
