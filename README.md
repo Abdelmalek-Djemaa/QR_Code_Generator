@@ -6,7 +6,7 @@
 
 A sleek, modern, and highly customizable QR code generator built with React and Tailwind CSS. This application provides a full suite of professional tools to create unique, high-visibility QR codes perfect for marketing, business cards, and personal use.
 
-![QR Code Studio Screenshot](https://storage.googleapis.com/gemini-prod/images/05119101-7132-4916-8316-43b44b81596e)
+![QR Code Studio Screenshot](https://github.com/Abdelmalek-Djemaa/QR_Code_Generator/blob/4509890ac3b36d58bb7ce6c39110a83f6c3e7fdf/demo.png)
 
 ## Live Demo
 
