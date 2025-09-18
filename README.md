@@ -11,7 +11,6 @@ A sleek, modern, and highly customizable QR code generator built with React and 
 ## Live Demo
 
 **[Check out the live application here!](https://qr-code-fun.vercel.app/)**
-_**(Action Required: Deploy your application and replace this link.)**_
 
 ##  Key Features
 
@@ -82,10 +81,8 @@ Make sure you have Node.js and npm installed on your machine.
 
 In the project directory, you can run:
 
-*   `npm start`: Runs the app in development mode.
+*   `npm run dev`: Runs the app in development mode.
 *   `npm build`: Builds the app for production to the `build` folder.
-*   `npm test`: Launches the test runner in interactive watch mode.
-*   `npm eject`: Removes the single dependency and copies configuration files and scripts into your app. **Note: this is a one-way operation!**
 
 ## 🤝 Contributing
 
